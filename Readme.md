@@ -20,10 +20,10 @@ To build a strong foundation in statistics with hands-on Python examples, such a
 
 ## 🧠 What You'll Find Here
 
-- 📁 `outlier_detection/`: Techniques to detect outliers (IQR, Z-Score, Boxplots)
-- 📁 `descriptive_statistics/`: Mean, median, mode, range, variance, etc.
+- 📁 `src/find_Outlier`: Techniques to detect outliers (IQR, Z-Score, Boxplots)
+- 📁 `src/stats_part1`: Mean, median, mode, range, variance, etc.
 - 📁 `visualizations/`: Histograms, box plots, scatter plots using Seaborn and Matplotlib
-- 📁 `notebooks/`: Interactive Jupyter Notebooks for step-by-step learning
+- 📁 `notebooks/data`: Interactive Jupyter Notebooks for step-by-step learning and have csv files
 
 ---
 
@@ -31,7 +31,7 @@ To build a strong foundation in statistics with hands-on Python examples, such a
 
 - Python 3.10+
 - Conda (Anaconda or Miniconda)
-- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `jupyter`
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, `jupyter`,`statistics`
 
 ---
 
@@ -41,7 +41,7 @@ To get started, you can create a new conda environment with all the required pac
 
 ```bash
 # Step 1: Clone the repo
-git clone https://github.com/yourusername/stats-for-datascience.git
+git https://github.com/yashagarwal16/Stats_for_DataScience.git
 cd stats-for-datascience
 
 # Step 2: Create a conda environment
@@ -51,7 +51,7 @@ conda create -n stats_env python=3.10
 conda activate stats_env
 
 # Step 4: Install required libraries
-conda install pandas numpy matplotlib seaborn scipy jupyter
+conda install pandas numpy matplotlib seaborn scipy jupyter statistics
 
 # Step 5: Start Jupyter Notebook
 jupyter notebook
